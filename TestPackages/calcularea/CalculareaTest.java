@@ -32,7 +32,7 @@ public class CalculareaTest {
         double expResult = Math.PI;
         double result = Circulo.calcArea(1);
         assertEquals(expResult, result, 0.0);
-        System.out.println("Area circulo " + expResult);
+        System.out.println("Area circulo radio=1 " + expResult);
     }
 
     @Test
@@ -40,7 +40,7 @@ public class CalculareaTest {
         double expResult = 4;
         double result = Cuadrado.calcArea(2);
         assertEquals(expResult, result, 0.0);
-        System.out.println("Area cuadrado " + expResult);
+        System.out.println("Area cuadrado lado=2 " + expResult);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class CalculareaTest {
         double expResult = 8;
         double result = Rectangulo.calcArea(2, 4);
         assertEquals(expResult, result, 0.0);
-        System.out.println("Area rectangulo " + expResult);
+        System.out.println("Area rectangulo base=2, altura=4 " + expResult);
     }
 
     @Test
@@ -56,7 +56,7 @@ public class CalculareaTest {
         double expResult = 4;
         double result = Trianglo.calcArea(2, 4);
         assertEquals(expResult, result, 0.0);
-        System.out.println("Area triangulo " + expResult);
+        System.out.println("Area triangulo base=2, altura=4 " + expResult);
     }
 
 }
